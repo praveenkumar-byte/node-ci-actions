@@ -1,0 +1,9 @@
+name: Varibale access
+on:
+  push:
+job:
+  Acess Variables:
+    run-on: ubuntu-latest
+    steps:
+      - name: pull variable
+        run: echo "The ACCESS_ID is ${{vars.ACCESS_ID}}"
