@@ -1,7 +1,7 @@
 name: Varibale access
 on:
   push:
-job:
+jobs:
   Acess Variables:
     run-on: ubuntu-latest
     steps:
