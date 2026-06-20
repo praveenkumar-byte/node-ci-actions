@@ -2,8 +2,8 @@ name: Varibale access
 on:
   push:
 jobs:
-  Acess Variables:
+  AcessVariables:
     runs-on: ubuntu-latest
     steps:
       - name: pull variable
-        run: echo "The ACCESS_ID is ${{vars.ACCESS_ID}}"
+        run: echo "The ACCESS_ID is ${{ vars.ACCESS_ID }}"
